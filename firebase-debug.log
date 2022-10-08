@@ -1,0 +1,61 @@
+[debug] [2022-10-08T09:11:38.807Z] ----------------------------------------------------------------------
+[debug] [2022-10-08T09:11:38.809Z] Command:       c:\Program Files\nodejs\node.exe c:\Users\Mohan Raj\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-10-08T09:11:38.810Z] CLI Version:   11.14.1
+[debug] [2022-10-08T09:11:38.810Z] Platform:      win32
+[debug] [2022-10-08T09:11:38.811Z] Node Version:  v16.17.1
+[debug] [2022-10-08T09:11:38.812Z] Time:          Sat Oct 08 2022 14:41:38 GMT+0530 (India Standard Time)
+[debug] [2022-10-08T09:11:38.813Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-10-08T09:11:38.824Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-10-08T09:11:38.825Z] > authorizing via signed-in user (mohanrajpremnath@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Project\Angular\SafcoElevators
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-10-08T09:13:18.715Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-10-08T09:13:19.373Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-10-08T09:13:19.374Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project applied-might-337316 (My First Project) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-10-08T09:14:00.074Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-10-08T09:14:00.181Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2022-10-08T09:14:00.182Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.11.0","browserURL":"https://www.gstatic.com/firebasejs/9.11.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.11.0/firebase.tgz"},"live":{"version":"9.11","browserURL":"https://www.gstatic.com/firebasejs/live/9.11/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.11/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.11.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.11.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.11.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.11.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.11.0/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.11.0/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.11.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.11.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.11.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.11.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.11.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.11.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.11.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.11.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.11.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.11.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.11.0/firebase-firestore.memory.js"}}
+[info] +  Wrote public/index.html 
+[info] 
+[info] i  Detected a .git folder at D:\Project\Angular\SafcoElevators 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=66857417&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-10-08T09:14:50.879Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2022-10-08T09:14:50.879Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2022-10-08T09:14:51.782Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2022-10-08T09:14:51.782Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2022-10-08T09:14:51.999Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2022-10-08T09:14:53.121Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2022-10-08T09:14:53.121Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"mohanrajpremnath","id":17474671,"node_id":"MDQ6VXNlcjE3NDc0Njcx","avatar_url":"https://avatars.githubusercontent.com/u/17474671?v=4","gravatar_id":"","url":"https://api.github.com/users/mohanrajpremnath","html_url":"https://github.com/mohanrajpremnath","followers_url":"https://api.github.com/users/mohanrajpremnath/followers","following_url":"https://api.github.com/users/mohanrajpremnath/following{/other_user}","gists_url":"https://api.github.com/users/mohanrajpremnath/gists{/gist_id}","starred_url":"https://api.github.com/users/mohanrajpremnath/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/mohanrajpremnath/subscriptions","organizations_url":"https://api.github.com/users/mohanrajpremnath/orgs","repos_url":"https://api.github.com/users/mohanrajpremnath/repos","events_url":"https://api.github.com/users/mohanrajpremnath/events{/privacy}","received_events_url":"https://api.github.com/users/mohanrajpremnath/received_events","type":"User","site_admin":false,"name":"Mohan Raj","company":null,"blog":"","location":null,"email":"mohanrajpremnath@gmail.com","hireable":null,"bio":"Cool one. Love for innovation.","twitter_username":null,"public_repos":4,"public_gists":0,"followers":0,"following":0,"created_at":"2016-02-25T13:12:33Z","updated_at":"2019-03-07T09:25:30Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":0,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as mohanrajpremnath 
+[info] 
