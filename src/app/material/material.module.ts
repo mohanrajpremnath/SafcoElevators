@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatTabsModule } from '@angular/material/tabs';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatButtonModule } from '@angular/material/button';
 
 
 
@@ -8,10 +10,14 @@ import { MatTabsModule } from '@angular/material/tabs';
   declarations: [],
   imports: [
     CommonModule,
-    MatTabsModule
+    MatTabsModule,
+    MatGridListModule,
+    MatButtonModule
   ],
   exports: [
-    MatTabsModule
+    MatTabsModule,
+    MatGridListModule,
+    MatButtonModule
   ]
 })
 export class MaterialModule { }
