@@ -1,1 +1,29 @@
-<p>contactus works!</p>
+<form class="gform" method="POST" (ngSubmit)="onSubmit()" *ngIf="!hideForm"
+action="https://script.google.com/macros/s/AKfycbyVFQIMh5ln5MV6E2DuHgq-1CoL1mkbyB6sLNTsfxsH2_pM-AMiZ6Ar65Lz0eFoCWpY2A/exec">
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>Name</mat-label>
+      <input matInput placeholder="Name" name="name">
+    </mat-form-field>
+
+        <mat-form-field class="example-full-width" appearance="fill">
+          <mat-label>Email</mat-label>
+          <input type="email" matInput name="emailFormControl" 
+                 placeholder="Ex. pat@example.com">
+        </mat-form-field>
+      
+
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Phone</mat-label>
+        <input matInput placeholder="Phone" name="phone">
+      </mat-form-field>
+    
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>Leave a comment</mat-label>
+      <textarea matInput placeholder="Leave a comment" name="comment"></textarea>
+    </mat-form-field>
+
+    <button mat-raised-button color="primary">Submit</button>
+</form>
+
+<div *ngIf="hideForm">Thanks for your response</div>
+  

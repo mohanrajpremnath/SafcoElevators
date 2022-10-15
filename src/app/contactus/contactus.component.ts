@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactusComponent implements OnInit {
 
+  hideForm: boolean = false;
+
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  onSubmit() {
+    this.hideForm = true;
+  }
+  
 }
