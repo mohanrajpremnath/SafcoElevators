@@ -1,3 +1,9 @@
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1944.8011260051326!2d77.67132316766426!3d12.86894707508381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6d6cbd4ef91d%3A0xd7774d2df96b7c47!2sMathru%20chaya!5e0!3m2!1sen!2sin!4v1665853044955!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+<div class="example-form">
+  <h2>Enquiry</h2>
 <form class="gform" method="POST" (ngSubmit)="onSubmit()" *ngIf="!hideForm"
 action="https://script.google.com/macros/s/AKfycbyVFQIMh5ln5MV6E2DuHgq-1CoL1mkbyB6sLNTsfxsH2_pM-AMiZ6Ar65Lz0eFoCWpY2A/exec">
     <mat-form-field class="example-full-width" appearance="fill">
@@ -24,6 +30,6 @@ action="https://script.google.com/macros/s/AKfycbyVFQIMh5ln5MV6E2DuHgq-1CoL1mkby
 
     <button mat-raised-button color="primary">Submit</button>
 </form>
-
-<div *ngIf="hideForm">Thanks for your response</div>
+</div>
+<div *ngIf="hideForm" class="thanks"><h2>Thanks for your response</h2></div>
   
